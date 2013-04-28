@@ -111,12 +111,12 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${personInstance?.educations}">
+				<g:if test="${personInstance?.education}">
 				<li class="fieldcontain">
-					<span id="educations-label" class="property-label"><g:message code="person.educations.label" default="Educations" /></span>
+					<span id="education-label" class="property-label"><g:message code="person.education.label" default="Education" /></span>
 					
-						<g:each in="${personInstance.educations}" var="e">
-						<span class="property-value" aria-labelledby="educations-label"><g:link controller="education" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></span>
+						<g:each in="${personInstance.education}" var="e">
+						<span class="property-value" aria-labelledby="education-label"><g:link controller="education" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></span>
 						</g:each>
 					
 				</li>

@@ -82,11 +82,20 @@
 	<g:textArea name="summary" cols="40" rows="5" maxlength="1000" value="${personInstance?.summary}"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'educations', 'error')} ">
-	<label for="educations">
-		<g:message code="person.educations.label" default="Educations" />
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'education', 'error')} ">
+	<label for="education">
+		<g:message code="person.education.label" default="Education" />
 		
 	</label>
-	<g:select name="educations" from="${talentpool.Education.list()}" multiple="multiple" optionKey="id" size="5" value="${personInstance?.educations*.id}" class="many-to-many"/>
+	
+<ul class="one-to-many">
+<g:each in="${personInstance?.education?}" var="e">
+    <li><g:link controller="education" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="education" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'education.label', default: 'Education')])}</g:link>
+</li>
+</ul>
+
 </div>
 

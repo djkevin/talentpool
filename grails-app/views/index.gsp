@@ -80,7 +80,7 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body> <!--
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
 			<h1>Application Status</h1>
@@ -101,9 +101,9 @@
 					<li>${plugin.name} - ${plugin.version}</li>
 				</g:each>
 			</ul>
-		</div>
+		</div>     -->
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
+			<h1>Welcome to TalentPool</h1>
 			<p>Congratulations, you have successfully started your first Grails application! At the moment
 			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
 			   content you may choose. Below is a list of controllers that are currently deployed in this application,
@@ -111,10 +111,19 @@
 
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
-				<ul>
+				<ul> <!--
 					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
 						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
+					</g:each> -->
+                        <li class="controller"> <g:link controller="person">Person</g:link></li>
+                    <li class="controller"> <g:link controller="education">Education</g:link></li>
+                    <li class="controller"> <g:link controller="experience">Experience</g:link></li>
+                        <li class="controller"><g:link controller="search">Search</g:link></li>
+
+
+
+
+
 				</ul>
 			</div>
 		</div>

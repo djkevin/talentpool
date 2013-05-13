@@ -47,7 +47,10 @@
 		<g:message code="person.country.label" default="Country" />
 		
 	</label>
-	<g:textField name="country" value="${personInstance?.country}"/>
+	<!--g:textField name="country" value="${personInstance?.country}"/     -->
+    <g:countrySelect name="country"
+                     value="${personInstance?.country}" default="mus"
+                     noSelection="['':'-Choose your country-']"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: personInstance, field: 'industry', 'error')} ">
@@ -82,6 +85,23 @@
 	<g:textArea name="summary" cols="40" rows="5" maxlength="1000" value="${personInstance?.summary}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'document', 'error')} ">
+	<label for="document">
+		<g:message code="person.document.label" default="Document" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:each in="${personInstance?.document?}" var="d">
+    <li><g:link controller="document" action="show" id="${d.id}">${d?.encodeAsHTML()}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="document" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'document.label', default: 'Document')])}</g:link>
+</li>
+</ul>
+
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: personInstance, field: 'education', 'error')} ">
 	<label for="education">
 		<g:message code="person.education.label" default="Education" />
@@ -94,6 +114,40 @@
 </g:each>
 <li class="add">
 <g:link controller="education" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'education.label', default: 'Education')])}</g:link>
+</li>
+</ul>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'experience', 'error')} ">
+	<label for="experience">
+		<g:message code="person.experience.label" default="Experience" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:each in="${personInstance?.experience?}" var="e">
+    <li><g:link controller="experience" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="experience" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'experience.label', default: 'Experience')])}</g:link>
+</li>
+</ul>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: personInstance, field: 'skill', 'error')} ">
+	<label for="skill">
+		<g:message code="person.skill.label" default="Skill" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:each in="${personInstance?.skill?}" var="s">
+    <li><g:link controller="skill" action="show" id="${s.id}">${s?.encodeAsHTML()}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="skill" action="create" params="['person.id': personInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'skill.label', default: 'Skill')])}</g:link>
 </li>
 </ul>
 

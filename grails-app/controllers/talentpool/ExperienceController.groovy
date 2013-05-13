@@ -63,8 +63,8 @@ class ExperienceController {
         if (version != null) {
             if (experienceInstance.version > version) {
                 experienceInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
-                        [message(code: 'experience.label', default: 'Experience')] as Object[],
-                        "Another user has updated this Experience while you were editing")
+                          [message(code: 'experience.label', default: 'Experience')] as Object[],
+                          "Another user has updated this Experience while you were editing")
                 render(view: "edit", model: [experienceInstance: experienceInstance])
                 return
             }

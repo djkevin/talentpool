@@ -48,9 +48,9 @@
 					
 						<td>${fieldValue(bean: experienceInstance, field: "location")}</td>
 					
-						<td>${fieldValue(bean: experienceInstance, field: "dateFrom")}</td>
+						<td><g:formatDate date="${experienceInstance.dateFrom}" /></td>
 					
-						<td>${fieldValue(bean: experienceInstance, field: "dateTo")}</td>
+						<td><g:formatDate date="${experienceInstance.dateTo}" /></td>
 					
 						<td><g:formatBoolean boolean="${experienceInstance.isCurrentPosition}" /></td>
 					

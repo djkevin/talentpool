@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Dellio" id="0" name="PersonTests" package="talentpool" tests="2" time="0.566" timestamp="2013-05-13T20:07:46">
+      <properties />
+
+      <testcase classname="talentpool.PersonTests" name="testIfPersonAgeIsCorrectlyCalculated" time="0.53" />
+
+      <testcase classname="talentpool.PersonTests" name="testIfNullDateOfBirthReturnsZero" time="0.015" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testIfPersonAgeIsCorrectlyCalculated--
+--Output from testIfNullDateOfBirthReturnsZero--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

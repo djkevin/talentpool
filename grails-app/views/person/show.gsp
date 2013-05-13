@@ -111,12 +111,45 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${personInstance?.document}">
+				<li class="fieldcontain">
+					<span id="document-label" class="property-label"><g:message code="person.document.label" default="Document" /></span>
+					
+						<g:each in="${personInstance.document}" var="d">
+						<span class="property-value" aria-labelledby="document-label"><g:link controller="document" action="show" id="${d.id}">${d?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${personInstance?.education}">
 				<li class="fieldcontain">
 					<span id="education-label" class="property-label"><g:message code="person.education.label" default="Education" /></span>
 					
 						<g:each in="${personInstance.education}" var="e">
 						<span class="property-value" aria-labelledby="education-label"><g:link controller="education" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${personInstance?.experience}">
+				<li class="fieldcontain">
+					<span id="experience-label" class="property-label"><g:message code="person.experience.label" default="Experience" /></span>
+					
+						<g:each in="${personInstance.experience}" var="e">
+						<span class="property-value" aria-labelledby="experience-label"><g:link controller="experience" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${personInstance?.skill}">
+				<li class="fieldcontain">
+					<span id="skill-label" class="property-label"><g:message code="person.skill.label" default="Skill" /></span>
+					
+						<g:each in="${personInstance.skill}" var="s">
+						<span class="property-value" aria-labelledby="skill-label"><g:link controller="skill" action="show" id="${s.id}">${s?.encodeAsHTML()}</g:link></span>
 						</g:each>
 					
 				</li>

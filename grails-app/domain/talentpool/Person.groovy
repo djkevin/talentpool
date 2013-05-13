@@ -1,4 +1,7 @@
+
 package talentpool
+
+import org.joda.time.*
 
 class Person {
 
@@ -13,7 +16,8 @@ class Person {
     String summary
     byte[] image
 
-    static hasMany = [education:Education]
+    static hasMany = [education:Education, experience:Experience, skill:Skill, document:Document]
+
 
 
     static constraints = {
@@ -27,5 +31,15 @@ class Person {
         email email: true
         image()
         summary maxSize: 1000
+    }
+
+    Integer getAge(){
+
+        if (dateOfBirth == null) return 0
+
+        DateMidnight birthdate = new DateMidnight(dateOfBirth)
+        DateTime now = new DateTime()
+        Years age = Years.yearsBetween(birthdate, now)
+        return age.getYears()
     }
 }

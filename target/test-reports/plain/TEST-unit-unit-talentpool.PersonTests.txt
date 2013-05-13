@@ -1,0 +1,9 @@
+Testsuite: talentpool.PersonTests
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.566 sec
+------------- Standard Error -----------------
+--Output from testIfPersonAgeIsCorrectlyCalculated--
+--Output from testIfNullDateOfBirthReturnsZero--
+------------- ---------------- ---------------
+
+Testcase: testIfPersonAgeIsCorrectlyCalculated took 0.53 sec
+Testcase: testIfNullDateOfBirthReturnsZero took 0.015 sec

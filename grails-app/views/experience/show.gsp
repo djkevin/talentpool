@@ -50,6 +50,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${experienceInstance?.website}">
+				<li class="fieldcontain">
+					<span id="website-label" class="property-label"><g:message code="experience.website.label" default="Website" /></span>
+					
+						<span class="property-value" aria-labelledby="website-label"><g:fieldValue bean="${experienceInstance}" field="website"/></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${experienceInstance?.dateFrom}">
 				<li class="fieldcontain">
 					<span id="dateFrom-label" class="property-label"><g:message code="experience.dateFrom.label" default="Date From" /></span>

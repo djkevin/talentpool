@@ -26,6 +26,14 @@
 	<g:textField name="location" maxlength="100" value="${experienceInstance?.location}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: experienceInstance, field: 'website', 'error')} ">
+	<label for="website">
+		<g:message code="experience.website.label" default="Website" />
+		
+	</label>
+	<g:textField name="website" value="${experienceInstance?.website}"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: experienceInstance, field: 'dateFrom', 'error')} required">
 	<label for="dateFrom">
 		<g:message code="experience.dateFrom.label" default="Date From" />

@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e872e2-9db7-4089-b280-a9f66b9675bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/talentpool/Experience.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/talentpool/Experience.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/talentpool/ExperienceController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/talentpool/ExperienceController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/talentpool/Person.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/talentpool/Person.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/talentpool/PersonTests.groovy" afterPath="$PROJECT_DIR$/test/unit/talentpool/PersonTests.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/talentpool/Skill.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/talentpool/Skill.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/experience/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/experience/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/person/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/person/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/experience/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/experience/list.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/experience/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/experience/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/person/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/person/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/talentpool-grailsPlugins.iml" afterPath="$PROJECT_DIR$/talentpool-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/talentpool.iml" afterPath="$PROJECT_DIR$/talentpool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="talentpool.iws" />
@@ -27,11 +14,11 @@
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/Person.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368475298619" ignored="false" />
     <file path="/Education.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367011065131" ignored="false" />
-    <file path="/Dummy.txt" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368477396640" ignored="false" />
-    <file path="/a.dummy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368477384659" ignored="false" />
+    <file path="/Dummy.txt" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368478443137" ignored="false" />
+    <file path="/a.dummy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368478428587" ignored="false" />
     <file path="$PROJECT_DIR$/grails-app/views/education/list.gsp" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367011090289" ignored="false" />
     <file path="/Skill.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367010310019" ignored="false" />
-    <file path="/Experience.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368477259553" ignored="false" />
+    <file path="/Experience.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368478290617" ignored="false" />
     <file path="$PROJECT_DIR$/grails-app/views/education/create.gsp" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367011090289" ignored="false" />
     <file path="/index.gsp" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367173178833" ignored="false" />
     <file path="/Document.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367173479599" ignored="false" />
@@ -40,13 +27,13 @@
     <file path="$PROJECT_DIR$/../CaseTracker/trunk/CaseTracker/grails-app/conf/BootStrap.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367264807869" ignored="false" />
     <file path="/BootStrap.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367266687085" ignored="false" />
     <file path="$PROJECT_DIR$/grails-app/controllers/talentpool/SkillController.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367267589389" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/controllers/talentpool/PersonController.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367267589389" ignored="false" />
     <file path="$PROJECT_DIR$/grails-app/controllers/talentpool/EducationController.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367267589389" ignored="false" />
     <file path="$PROJECT_DIR$/grails-app/controllers/talentpool/DocumentController.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1367267589389" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Grails/lib/grails_integration.jar!/org/jetbrains/plugins/grails/lang/gsp/resolve/taglib/tld/grails.tld" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368473338581" ignored="false" />
     <file path="/PersonTests.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368475520336" ignored="false" />
     <file path="/fragment.java" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368475581216" ignored="false" />
     <file path="/_form.gsp" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368476263432" ignored="false" />
+    <file path="$PROJECT_DIR$/grails-app/controllers/talentpool/ExperienceController.groovy" changelist="04e872e2-9db7-4089-b280-a9f66b9675bb" time="1368478455269" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +97,7 @@
       <file leaf-file-name="Person.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/talentpool/Person.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="736" selection-end="736" vertical-scroll-proportion="-25.347826">
+            <state line="45" column="12" selection-start="931" selection-end="931" vertical-scroll-proportion="-30.52174">
               <folding />
             </state>
           </provider>
@@ -128,7 +115,7 @@
       <file leaf-file-name="Experience.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/talentpool/Experience.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="34" selection-start="457" selection-end="457" vertical-scroll-proportion="0.5800525">
+            <state line="21" column="17" selection-start="388" selection-end="388" vertical-scroll-proportion="0.46850392">
               <folding />
             </state>
           </provider>
@@ -166,10 +153,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkillTests.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/talentpool/SkillTests.groovy">
+      <file leaf-file-name="PersonController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/talentpool/PersonController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="276" selection-end="276" vertical-scroll-proportion="-11.826087">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -826,13 +813,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/talentpool/SearchController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="107" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="60" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
@@ -891,15 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/talentpool/PersonTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="787" selection-end="787" vertical-scroll-proportion="-20.695652">
-          <folding>
-            <element signature="e#22#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/person/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="91" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-6.591837">
@@ -935,9 +906,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/talentpool/PersonTests.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="40" selection-start="787" selection-end="787" vertical-scroll-proportion="-20.695652">
+          <folding>
+            <element signature="e#22#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/talentpool/PersonController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/talentpool/Person.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="736" selection-end="736" vertical-scroll-proportion="-25.347826">
+        <state line="45" column="12" selection-start="931" selection-end="931" vertical-scroll-proportion="-30.52174">
           <folding />
         </state>
       </provider>
@@ -947,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/talentpool/Experience.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="457" selection-end="457" vertical-scroll-proportion="0.5800525">
+        <state line="21" column="17" selection-start="388" selection-end="388" vertical-scroll-proportion="0.46850392">
           <folding />
         </state>
       </provider>

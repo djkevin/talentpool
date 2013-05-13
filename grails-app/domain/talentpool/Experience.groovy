@@ -7,6 +7,7 @@ class Experience {
     String companyName
     String title
     String location
+    String website
     Date dateFrom
     Date dateTo
     Boolean isCurrentPosition
@@ -18,6 +19,7 @@ class Experience {
         companyName nullable: false
         title nullable:false
         location maxSize: 100
+        website()
         dateFrom()
         dateTo()
         isCurrentPosition()

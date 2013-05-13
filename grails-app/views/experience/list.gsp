@@ -30,11 +30,11 @@
 					
 						<g:sortableColumn property="location" title="${message(code: 'experience.location.label', default: 'Location')}" />
 					
+						<g:sortableColumn property="website" title="${message(code: 'experience.website.label', default: 'Website')}" />
+					
 						<g:sortableColumn property="dateFrom" title="${message(code: 'experience.dateFrom.label', default: 'Date From')}" />
 					
 						<g:sortableColumn property="dateTo" title="${message(code: 'experience.dateTo.label', default: 'Date To')}" />
-					
-						<g:sortableColumn property="isCurrentPosition" title="${message(code: 'experience.isCurrentPosition.label', default: 'Is Current Position')}" />
 					
 					</tr>
 				</thead>
@@ -48,11 +48,11 @@
 					
 						<td>${fieldValue(bean: experienceInstance, field: "location")}</td>
 					
+						<td>${fieldValue(bean: experienceInstance, field: "website")}</td>
+					
 						<td><g:formatDate date="${experienceInstance.dateFrom}" /></td>
 					
 						<td><g:formatDate date="${experienceInstance.dateTo}" /></td>
-					
-						<td><g:formatBoolean boolean="${experienceInstance.isCurrentPosition}" /></td>
 					
 					</tr>
 				</g:each>
